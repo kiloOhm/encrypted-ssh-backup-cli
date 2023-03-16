@@ -1,0 +1,24 @@
+{
+  "name": "encrypted-ssh-backup-cli",
+  "bin": {
+    "esbc": "./dist/index.js"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "etsc",
+    "start": "node dist/index.js",
+    "ig": "npm run build && npm pack && npm install -g encrypted-ssh-backup-cli-$npm_package_version.tgz && rm encrypted-ssh-backup-cli-$npm_package_version.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "esbuild": "^0.17.11",
+    "esbuild-node-tsc": "^2.0.5",
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-ssh": "^13.0.1"
+  }
+}
