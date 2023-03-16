@@ -29,7 +29,7 @@ if(!args.length) {
   }
 }
 if (args.length === 0) {
-  console.log('Usage: vbc [options]\n');
+  console.log('Usage: esbc [options]\n');
   console.log('Options:');
   options.forEach(cmd => {
     console.log(explainOption(cmd));

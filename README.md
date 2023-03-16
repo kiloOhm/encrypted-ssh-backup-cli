@@ -11,7 +11,7 @@ npm run ig
 
 ## 2. Usage
 ```
-Usage: vbc [options]
+Usage: esbc [options]
 
 Options:
   -v, --version - prints the current version
